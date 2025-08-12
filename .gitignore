@@ -41,3 +41,4 @@ app-example
 # native folders
 android/
 ios/    
+config.bat

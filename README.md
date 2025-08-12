@@ -6,6 +6,12 @@ This project demonstrates a tappable memory card with smooth expand/collapse ani
 https://github.com/user-attachments/assets/e604611c-9a36-4151-981c-7d2b1fdec5b2
 
 
+
+## Optional_Task_Video
+
+https://github.com/user-attachments/assets/7b81818c-667a-4430-9235-b8eedf057fa5
+
+
 ## Setup and Run Instructions
 
 1. Clone this repo
