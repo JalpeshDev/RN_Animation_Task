@@ -1,9 +1,10 @@
 # Card Animation (React Native + Expo)
 
-This project demonstrates a tappable memory card with smooth expand/collapse animation.
+This project demonstrates animated memory cards with smooth entrance animations and gesture-based interactions.
 
 ## Video
-https://github.com/user-attachments/assets/e604611c-9a36-4151-981c-7d2b1fdec5b2
+
+https://github.com/user-attachments/assets/cb0bd6b6-a99b-4586-a6f9-896e266508e8
 
 
 ## Setup and Run Instructions
@@ -30,17 +31,31 @@ npm run prebuild
 ```
 
 ## Animation Libraries Used
-- [Moti](https://moti.fyi/)
+- [Moti](https://moti.fyi/): Provides smoother animations with no FPS drop.
 - [React Native Reanimated (Moti depends on reanimated)](https://docs.swmansion.com/react-native-reanimated/)
 
 #### Why Moti?
-Moti provides a simple, declarative API for complex React Native animations, making it easy to create smooth transitions and shared element effects. It builds on top of Reanimated, allowing for performant, interruptible, and highly customizable animations with less boilerplate code.
+Moti offers a simple, declarative API for creating complex animations in React Native. It ensures smooth transitions and shared element effects without FPS drops, making it ideal for high-performance animations. Built on top of Reanimated, it allows for interruptible and highly customizable animations with minimal boilerplate code.
 
+## Features
+- **Entrance Animations**: Cards animate into view when loaded.
+- **Gesture Support**: Expand/collapse cards using swipe gestures.
+- **Smooth Transitions**: No FPS drop during animations.
+- **Reusable Components**: Modular design for scalability.
 
 ## Improvements for a Real App
 - Enhanced accessibility (screen reader labels, reduced motion support)
-- Gesture support for expand/collapse (e.g., swipe or drag)
-- State separation for scalable lists or global state
 - Shared-element transitions for detail views
 - Lazy-load high-res images after expansion
 - Add unit tests for reliability
+
+## Steps to Add More Animations
+1. **Create a New Component**:
+   - Add a new file in the `components` folder.
+
+2. **Update the Animation Cards**:
+   - Add a new entry to `animationCards.ts` in the `constants/data` folder.
+
+3. **Style the Component**:
+   - Use shared styles from `CardStyles.ts` or define custom styles for your new animation.
+
