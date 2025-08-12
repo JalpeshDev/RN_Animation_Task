@@ -25,8 +25,9 @@ export default function RootLayout() {
   return (
     <GestureHandlerRootView>
       <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
-        <Stack>
+        <Stack initialRouteName="swiper">
           <Stack.Screen name="index" options={{ headerShown: false }} />
+          <Stack.Screen name="swiper" options={{ title: "Swiper Cards" }} />
           <Stack.Screen name="+not-found" />
         </Stack>
         <StatusBar style="auto" />

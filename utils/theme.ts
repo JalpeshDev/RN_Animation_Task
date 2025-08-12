@@ -22,6 +22,9 @@ export const theme = {
   overlay: "rgba(255,255,255,0.04)",
   link: "#90CAF9",
   selection: "#263238",
+  heart: "#e74c3c",
+  chat: "#27ae60",
+  skip: "#3498db",
 };
 
 export type ThemeType = typeof theme;

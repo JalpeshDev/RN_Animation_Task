@@ -1,6 +1,7 @@
 import { Ionicons } from "@expo/vector-icons";
+import { Link } from "expo-router";
 import React, { useState } from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Button, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import animationCards from "../constants/data/animationCards";
 
 const styles = StyleSheet.create({
@@ -94,6 +95,9 @@ const Home = () => {
       <View style={styles.cardContainer}>
         <Component title={title} image={image} />
       </View>
+      <Link href="/swiper" asChild>
+        <Button title="Navigate to Swiper" />
+      </Link>
     </View>
   );
 };
