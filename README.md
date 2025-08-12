@@ -7,6 +7,14 @@ This project demonstrates animated memory cards with smooth entrance animations 
 https://github.com/user-attachments/assets/cb0bd6b6-a99b-4586-a6f9-896e266508e8
 
 
+## Optional_Task_Video
+
+Uploading swiper.mp4…
+
+
+
+
+
 ## Setup and Run Instructions
 
 1. Clone this repo
